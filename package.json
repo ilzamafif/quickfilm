@@ -1,0 +1,32 @@
+{
+  "name": "quickfilm",
+  "version": "1.0.0",
+  "description": "aplikasi untuk mencari film",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server ./dist",
+    "start-dev": "webpack-dev-server --config webpack.dev.js --open",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Ilzam Afif <ilzamafif27@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.27.0",
+    "popper.js": "^1.16.1"
+  }
+}
