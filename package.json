@@ -4,7 +4,7 @@
   "description": "aplikasi untuk mencari film",
   "main": "index.js",
   "scripts": {
-    "start": "http-server ./dist",
+    "start": "node ./src/index.js",
     "start-dev": "webpack-dev-server --config webpack.dev.js --open",
     "build": "webpack --config webpack.prod.js"
   },
